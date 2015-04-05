@@ -1,0 +1,85 @@
+body {
+    background-image: url('../img/rocket-shuttle.jpg');
+    background-size: cover;
+    
+    color: #fff;
+}
+h1 {
+    font-size: 52px;
+    font-family: 'Ubuntu', sans-serif;
+}
+#main {
+    margin-top: 200px;
+}
+#countdown {
+    margin-top: 12px;
+}
+
+.email {
+    width: 500px;
+    height: 35px;
+    padding: 0 15px;
+    background: #f1f1f1;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,.02)), to(rgba(0,0,0,.02)));
+    background-image: -webkit-linear-gradient(top, rgba(255,255,255,.02), rgba(0,0,0,.02));
+    background-image: -moz-linear-gradient(top, rgba(255,255,255,.02), rgba(0,0,0,.02));
+    background-image: -ms-linear-gradient(top, rgba(255,255,255,.02), rgba(0,0,0,.02));
+    background-image: -o-linear-gradient(top, rgba(255,255,255,.02), rgba(0,0,0,.02));
+    background-image: linear-gradient(top, rgba(255,255,255,.02), rgba(0,0,0,.02));
+    border: 1px solid #cbcbcb;
+    -moz-box-shadow: 0 2px 3px 0 rgba(0,0,0,.1) inset;
+    -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,.1) inset;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.1) inset;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-style: italic;
+    color: #000;
+}
+
+.submit {
+    width: 140px;
+    height: 37px;
+    margin: 10px 0 0 5px;
+    padding: 0;
+    background: #888;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,.1)), to(rgba(0,0,0,.1)));
+    background-image: -webkit-linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.1));
+    background-image: -moz-linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.1));
+    background-image: -ms-linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.1));
+    background-image: -o-linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.1));
+    background-image: linear-gradient(top, rgba(255,255,255,.1), rgba(0,0,0,.1));
+    border: 1px solid #636363;
+    -moz-box-shadow:
+        0 1px 2px 0 rgba(253,252,252,.35) inset,
+        0 -1px 2px 0 rgba(0,0,0,.15) inset;
+    -webkit-box-shadow:
+        0 1px 2px 0 rgba(253,252,252,.35) inset,
+        0 -1px 2px 0 rgba(0,0,0,.15) inset;
+    box-shadow:
+        0 1px 2px 0 rgba(253,252,252,.35) inset,
+        0 -1px 2px 0 rgba(0,0,0,.15) inset;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0,0,0,.35);
+    line-height: 13px;
+    cursor: pointer;
+}
+.submit:hover {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(255,255,255,.1)), to(rgba(0,0,0,.1)));
+    background-image: -webkit-linear-gradient(bottom, rgba(255,255,255,.1), rgba(0,0,0,.1));
+    background-image: -moz-linear-gradient(bottom, rgba(255,255,255,.1), rgba(0,0,0,.1));
+    background-image: -ms-linear-gradient(bottom, rgba(255,255,255,.1), rgba(0,0,0,.1));
+    background-image: -o-linear-gradient(bottom, rgba(255,255,255,.1), rgba(0,0,0,.1));
+    background-image: linear-gradient(bottom, rgba(255,255,255,.1), rgba(0,0,0,.1));
+    -moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,.15) inset;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,.15) inset;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.15) inset;
+}
+
